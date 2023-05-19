@@ -19,3 +19,4 @@ The script operates in several stages:
 At the end of the run, the script plots the highest fitness score in each generation, providing a visualization of the evolution of the models over time.
 
 Based primarily around the Deep Neuroevolution paper by FP Such et al (2017): https://arxiv.org/abs/1712.06567
+The Wrappers.py file includes code published on the gymlearning website: https://www.gymlibrary.dev/
