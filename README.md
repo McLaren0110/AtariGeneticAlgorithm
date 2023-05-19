@@ -1,4 +1,4 @@
-# AtariGeneticAlgorithm
+# DNN evolution via genetic algorithm
 
 This project demonstrates the use of a genetic algorithm to evolve a population of Convolutional Neural Networks (CNNs) playing the Breakout Atari game, using the gym learning environment. The program uses TensorFlow and Keras to build and manage the models, and the gym environment to provide the game interface.
 
@@ -17,3 +17,5 @@ The script operates in several stages:
     Repeat: The process of evaluation, selection, mutation, crossover, and replacement is repeated for a number of generations.
 
 At the end of the run, the script plots the highest fitness score in each generation, providing a visualization of the evolution of the models over time.
+
+Based primarily around the Deep Neuroevolution paper by FP Such et al (2017): https://arxiv.org/abs/1712.06567
